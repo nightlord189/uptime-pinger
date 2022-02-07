@@ -1,0 +1,5 @@
+{
+  "TgToken": "testtoken",
+  "PingTimeout": 60,
+  "WorkersCount": 3
+}

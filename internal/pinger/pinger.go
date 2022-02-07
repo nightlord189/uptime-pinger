@@ -29,7 +29,7 @@ func (p *Pinger) CheckUrl(url string) CheckUrlResult {
 		return result
 	}
 	defer browser.MustClose()
-	browser = browser.Timeout(5 * time.Second)
+	browser = browser.Timeout(10 * time.Second)
 	target := proto.TargetCreateTarget{
 		URL: url,
 	}
